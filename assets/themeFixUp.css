@@ -1,0 +1,9 @@
+
+body    h1  {
+    color: var(--pastelPink);
+}
+
+body    header  {
+    border-color: var(--pastelPink);
+}
+

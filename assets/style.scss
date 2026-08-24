@@ -4,7 +4,15 @@
 @import "{{ site.theme }}";
 
 
+body    h1  {
+    color: #fc8eac;
+}
 
-//body    {
-//    background-color: #BBB;
-//}
+body    header  {
+    border-color: #fc8eac;
+}
+
+body    hr  {
+    color: #fc8eac;
+    border-color: #fc8eac;
+}

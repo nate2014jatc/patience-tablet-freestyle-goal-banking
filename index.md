@@ -9,7 +9,7 @@ layout: default
   <a href="{{ post.url}}">
     <h2>{{ post.title }}</h2>
     <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
-    <p>{{ post.content | strip_html | truncatewords: 5 }}</p>
+    <p>{{ post.content | strip_html | truncatewords: 7 }}</p>
   </a>
 {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ layout: default
   <a href="{{ post.url }}">
     <h2>{{ post.title }}</h2>
     <p>{{ post.date | date: "%m/%d/%Y %H:%M"}}</p>
-    <p>{{ post.content | strip_html | truncatewords: 5 }}</p>
+    <p>{{ post.content | strip_html | truncatewords: 7 }}</p>
   </a>
   <hr>
 {% endfor %}

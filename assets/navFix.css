@@ -10,6 +10,6 @@ body    nav     {
 .navDecorations {
     border-style: groove;
     border-width: 5px;
-    border-color: var(--astraBlue);
+    border-color: var(--pastelGreen);
     border-radius: 30px;
 }

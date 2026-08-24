@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="/assets/baseColors.css">
 		<link rel="stylesheet" href="/assets/authorBlurb.css">
 		<link rel="stylesheet" href="/assets/navFix.css">
+		<link rel="stylesheet" href="/assets/themeFixUp.css">
 		<link rel="stylesheet" href="/assets/style.css">
 		<link rel="icon" type="image/png" href="/assets/img/AstraGroup_128x128.png">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6034836920654252" crossorigin="anonymous"></script>
@@ -24,7 +25,7 @@
 		</header>
 		<nav class="navDecorations">
 			 {% for item in site.data.navigation %}
-			<a href="{{ item.link }}" {% if page.url == item.link %} style="color: #d38700;"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
+			<a href="{{ item.link }}" {% if page.url == item.link %} style="color: var(--pastelPink);"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
 				<span class="icon" style="background: url('/assets/img/{{ item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
 				{{ item.name }}
 			</a>

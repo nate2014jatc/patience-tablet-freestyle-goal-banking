@@ -17,6 +17,7 @@ livereload: true
 livereload_min_delay: 60
 livereload_max_delay: 600
 author: RaxVentus
+future: true
 
 
 # Exclude from processing.
