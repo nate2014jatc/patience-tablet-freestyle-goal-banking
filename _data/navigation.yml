@@ -1,6 +1,6 @@
 - name: Home
   link: /
-  img: home_24dp_fc8eac.svg
+  img: assets/img/home_24dp_fc8eac.svg
 - name: Report a Problem
   link: mailto:rainbowpupsofutah@gmail.com?Subject=Admin%20Report
-  img: policy_alert_24dp.svg
+  img: assets/img/policy_alert_24dp.svg

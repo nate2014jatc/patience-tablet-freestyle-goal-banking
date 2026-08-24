@@ -5,12 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 		<meta name="theme-color" content="#d38700">
-		<link rel="stylesheet" href="/assets/baseColors.css">
-		<link rel="stylesheet" href="/assets/authorBlurb.css">
-		<link rel="stylesheet" href="/assets/navFix.css">
-		<link rel="stylesheet" href="/assets/themeFixUp.css">
-		<link rel="stylesheet" href="/assets/style.css">
-		<link rel="icon" type="image/png" href="/assets/img/RPoU_128.png">
+		<link rel="stylesheet" href="{{ '/assets/baseColors.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/authorBlurb.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/navFix.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/themeFixUp.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+		<link rel="icon" type="image/png" href="{{ '/assets/img/RPoU_128.png' | relative_url }}">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6034836920654252" crossorigin="anonymous"></script>
 		{% seo %}
 	</head>
@@ -25,8 +25,8 @@
 		</header>
 		<nav class="navDecorations">
 			 {% for item in site.data.navigation %}
-			<a href="{{ item.link }}" {% if page.url == item.link %} style="color: var(--pastelPink);"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
-				<span class="icon" style="background: url('/assets/img/{{ item.img | remove: ' '}}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
+			<a href="{{ item.link | relative_url }}" {% if page.url == item.link %} style="color: var(--pastelPink);"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">
+				<span class="icon" style="background: url('{{ item.img | remove: ' '  | relative_url }}'); background-repeat: no-repeat; background-position: center; background-size: contain;"></span>
 				{{ item.name }}
 			</a>
 			{% endfor %}

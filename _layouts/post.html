@@ -14,7 +14,7 @@ layout: default
 <hr>
 
 <div class="author-bio">
-    <img src="/assets/img/{{ authorData.image }}" alt="{{ authorData.name | default: site.author.name }}'s profile picture." />
+    <img src="{{ authorData.image | relative_url }}" alt="{{ authorData.name | default: site.author.name }}'s profile picture." />
     <div class="author-name">{{ authorData.name | default: site.author.name }}</div>
     <p class="bio">{{ authorData.bio }}<marquee class="marquee" behavior="scroll" direction="left" scrollamount="5"><p>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</p></marquee></p>
     <div class="socialDiv">

@@ -2,8 +2,8 @@ title: Rainbow Pups of Utah - Events
 email: rainbowpupsofutah@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Page for event details
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/patience-tablet-freestyle-goal-banking" # the subpath of your site, e.g. /blog
+url: "https://nate2014jatc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: jekyll-theme-hacker

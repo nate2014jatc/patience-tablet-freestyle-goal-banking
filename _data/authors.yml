@@ -1,6 +1,6 @@
 RaxVentus:
   name: Rax Ventus
-  image: rax_round.png
+  image: assets/img/rax_round.png
   bio: Intentionally Left Blank. <br/>For testing purposes, of course.
   socials:
     - type: Bluesky
