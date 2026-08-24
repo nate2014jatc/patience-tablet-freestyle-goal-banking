@@ -1,0 +1,95 @@
+.author-bio	{
+	width: 50%;
+	float: right;
+	position: relative;
+	right: -7.5vw;
+	bottom: -1vh;
+	border-radius: 50px 10px 10px 50px;
+	border-width: 7px;
+	border-style: groove;
+	border-color: var(--astraBlue);
+	padding-left: 4px;
+	padding-bottom: 3%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	background-color: var(--transparentAstraBlue);
+}
+
+.author-bio	img	{
+	float: right;
+	max-width: 128px;
+	max-height: 128px;
+	margin-right: 4px;
+	margin-top: 4px;
+	border-style: groove;
+	border-color: var(--astraOrange);
+	border-width: 7px;
+	border-radius: 100px;
+}
+
+
+.author-bio .author-name	{
+	position: relative;
+	top: 18px;
+	left: 24px;
+	width: max-content;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: var(--astraOrange);
+	text-decoration-line: underline;
+	text-decoration-color: var(--astraOrange);
+	font-style: italic;
+}
+
+.author-bio	.marquee		{
+	float: left;
+	z-index: -1;
+	width: 90%;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	bottom: 3.5vh;
+}
+
+.author-bio	.marquee	p	{
+	color: #d35700;
+	margin: 0px;
+	padding: 0px;
+}
+
+.author-bio .bio			{
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 24px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	border-radius: 12px;
+	border-width: 4px;
+	border-style: groove;
+	border-color: var(--astraBlue);
+	background-color: var(--transparentAstraBlue);
+}
+
+.author-bio	.socialDiv		{
+	position: relative;
+	top: 2vh;
+	margin-left: 24px;
+	padding-top: 4px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 4px;
+	width: fit-content;
+	border-style: groove;
+	border-width: 4px;
+	border-color: var(--astraOrange);
+	border-radius: 30px 30px 30px 15px;
+	background-color: var(--transparentAstraBlue);
+}
+
+.author-bio	.social-link	{
+	position: relative;
+	top: -2.5vh;
+	color: var(--astraOrange);
+	text-decoration-color: var(--astraOrange);
+}

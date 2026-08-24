@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% assign authorData = site.data.authors[page.author] | default: site.data.authors[site.author] %}
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ authorData.name | default: site.author }}</p>
+
+{{content}}
+
+
+
+<hr>
+
+<div class="author-bio">
+    <img src="/assets/img/{{ authorData.image }}" alt="{{ authorData.name | default: site.author.name }}'s profile picture." />
+    <div class="author-name">{{ authorData.name | default: site.author.name }}</div>
+    <p class="bio">{{ authorData.bio }}<marquee class="marquee" behavior="scroll" direction="left" scrollamount="5"><p>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</p></marquee></p>
+    <div class="socialDiv">
+    {% for social in authorData.socials %}
+    <a href="{{ social.url }}" class="social-link">{{ social.type }}</a>
+    <br>
+    {% endfor %}
+    </div>
+</div>
+<h5>Site Last Updated: {{ site.time | date: "%m/%d/%Y %H:%M" }}</h5>

@@ -1,0 +1,15 @@
+body    nav     {
+    width: fit-content;
+    margin-left: 12vw;
+    padding-top: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 4vh;
+}
+
+.navDecorations {
+    border-style: groove;
+    border-width: 5px;
+    border-color: var(--astraBlue);
+    border-radius: 30px;
+}

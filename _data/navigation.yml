@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+  img: home.png
+- name: Report a Problem
+  link: mailto:rainbowpupsofutah@gmail.com?Subject=Admin%20Report
+  img: Outage.svg
