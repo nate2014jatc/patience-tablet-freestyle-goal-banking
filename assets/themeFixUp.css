@@ -7,3 +7,7 @@ body    header  {
     border-color: var(--pastelPink);
 }
 
+#main_content   h3  {
+    color: var(--pastelBlue);
+}
+/*Duplicate this in style.scss with the color code instead of the variable*/
