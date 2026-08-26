@@ -24,3 +24,19 @@ body    hr  {
 #main_content   h3  {
     color: #8eebfc;
 }
+
+ul  li  {
+    list-style-image: url("{{ '/assets/img/pet_supplies_24dp_FC8EAC.svg' | relative_url }}")
+}
+
+body    {
+    background-image: url("{{ '/assets/img/bkg.png' | relative_url }}");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(21, 21, 21);
+}

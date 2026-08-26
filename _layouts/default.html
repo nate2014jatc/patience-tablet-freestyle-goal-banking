@@ -23,6 +23,12 @@
 				<h2>{{ site.description | default: site.github.project_tagline }}</h2>
 			</div>
 		</header>
+		<div class="pre-nav-1">
+
+		</div>
+		<div class="pre-nav-2">
+			
+		</div>
 		<nav class="navDecorations">
 			 {% for item in site.data.navigation %}
 			<a href="{{ item.link | relative_url }}" {% if page.url == item.link %} style="color: var(--pastelPink);"{% endif %} class="btn btn-{{ item.name | remove: ' ' }}">

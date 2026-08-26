@@ -3,7 +3,7 @@ layout: post
 title: August Potluck
 published: true
 author: RaxVentus
-date: 2026-08-24 14:00
+date: 2026-08-29 14:00
 ---
 ## When: 08/29/2026 from 14:00 to Sunset
 

@@ -1,3 +1,5 @@
+---
+---
 
 body    h1  {
     color: var(--pastelPink);
@@ -11,3 +13,37 @@ body    header  {
     color: var(--pastelBlue);
 }
 /*Duplicate this in style.scss with the color code instead of the variable*/
+
+body    ul  :hover  {
+    background-color: var(--transparentAstraBlue);
+}
+
+body    li   {
+    border-color: var(--pastelBlue);
+    border-style: groove;
+    border-radius: 30px;
+    border-width: 5px;
+    margin-left: 3vw;
+    margin: 1.5vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 9vw;
+    padding-bottom: 2vh;
+}
+
+body    li  a   {
+    text-decoration: none;
+}
+
+body    li  a   h2  {
+    text-decoration: none;
+}
+
+body    li  a   p   {
+    color: var(--pastelPink);
+    text-decoration: none;
+}
+
+body    li  :hover  {
+    background-color: rgba(0, 0, 0, 0);
+}

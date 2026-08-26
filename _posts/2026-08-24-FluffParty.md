@@ -3,7 +3,7 @@ layout: post
 title: August Fluff Party
 published: true
 author: RaxVentus
-date: 2026-08-24 15:30
+date: 2026-08-28 22:00
 ---
 ## When: 08/28/2026 from 22:00 to Close
 
