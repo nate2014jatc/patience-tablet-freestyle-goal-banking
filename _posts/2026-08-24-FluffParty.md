@@ -4,6 +4,7 @@ title: August Fluff Party
 published: true
 author: RaxVentus
 date: 2026-08-28 22:00
+expires: 2026-08-29 00:00
 ---
 ## When: 08/28/2026 from 22:00 to Close
 

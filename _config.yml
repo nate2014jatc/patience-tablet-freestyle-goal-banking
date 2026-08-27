@@ -9,6 +9,7 @@ url: "https://nate2014jatc.github.io" # the base hostname & protocol for your si
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+#  - jekyll-archives
 
 
 timezone: America/Denver
@@ -19,6 +20,11 @@ livereload_max_delay: 600
 author: RaxVentus
 future: true
 
+jekyll-archives:
+  enabled: [day]
+  layout: archive
+  permalinks:
+    day: '/:year/:month/:day/'   
 
 # Exclude from processing.
 # The following items will not be processed, by default.

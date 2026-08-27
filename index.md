@@ -5,7 +5,7 @@ layout: default
 <br>
 <h1>Latest:</h1>
 <ul>
-{% for post in site.posts limit:8 %}
+{% for post in site.posts reversed limit:8 %}
   <li>
     <a href="{{ post.url | relative_url}}">
       <h2>{{ post.title }}</h2>

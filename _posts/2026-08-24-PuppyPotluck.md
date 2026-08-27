@@ -4,6 +4,7 @@ title: August Potluck
 published: true
 author: RaxVentus
 date: 2026-08-29 14:00
+expires: 2026-08-30 00:00
 ---
 ## When: 08/29/2026 from 14:00 to Sunset
 
