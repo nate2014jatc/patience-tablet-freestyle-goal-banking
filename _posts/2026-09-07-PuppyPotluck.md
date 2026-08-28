@@ -1,6 +1,6 @@
 ---
 layout: post
-title: August Potluck
+title: August-ish Potluck
 published: true
 author: RaxVentus
 date: 2026-09-07 14:00
