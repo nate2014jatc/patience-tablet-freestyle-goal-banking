@@ -1,8 +1,8 @@
 - name: Home
   link: /
   img: assets/img/home_24dp_fc8eac.svg
-- name: Archive
-  link: /archive
+- name: All Events
+  link: /all-events
   img: assets/img/history_24dp_FC8EAC.svg
 - name: Report a Problem
   link: mailto:rainbowpupsofutah@gmail.com?Subject=Admin%20Report
