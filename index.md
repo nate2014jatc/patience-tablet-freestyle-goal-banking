@@ -6,7 +6,7 @@ layout: default
 <h1>Latest:</h1>
 <ul>
 {% for post in site.posts reversed limit:8 %}
-  {% assign expires = post.date | date: "%s" | plus: 172800 | date: "%s" %}
+  {% assign expires = post.date | date: "%s" | plus: 86400 | date: "%s" %}
   {% assign current_time = site.time | date: "%s" %}
   {% if current_time < expires %}
     <li>
