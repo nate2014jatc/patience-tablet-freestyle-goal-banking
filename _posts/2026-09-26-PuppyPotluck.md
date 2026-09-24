@@ -2,7 +2,7 @@
 layout: post
 title: September Potluck
 published: true
-author: RainbowAdmins
+author: RaxVentus
 date: 2026-09-26 14:00
 ---
 ## When: 09/26/2026 from 14:00 to Sunset
