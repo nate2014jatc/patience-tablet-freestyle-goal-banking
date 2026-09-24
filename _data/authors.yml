@@ -12,7 +12,9 @@ RaxVentus:
 RainbowAdmins:
   name: Rainbow Pups of Utah Admins
   image: assets/img/profile.png
-  bio: [blank]
+  bio: left blank for now
   socials:
       - type: Bluesky
         url: https://bsky.app/profile/rainbowpupsutah.bsky.social
+      - type: Fetlife
+        url: https://fetlife.com/Rainbow_Pups_UT
