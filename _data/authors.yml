@@ -9,3 +9,10 @@ RaxVentus:
       url: https://git.astragroup.info/rax
     - type: Profile Picture By
       url: https://www.furaffinity.net/user/mightymsmoka
+RainbowAdmins:
+  name: Rainbow Pups of Utah Admins
+  image: assets/img/profile.png
+  bio: [blank]
+  socials:
+      - type: Bluesky
+        url: https://bsky.app/profile/rainbowpupsutah.bsky.social
