@@ -15,11 +15,6 @@ layout: default
         <p>{{ post.content | strip_html | truncatewords: 7 }}</p>
       </a>
     </li>
-  {% else %}
-    <li>
-      <h2>Nothing to show right now.</h2>
-    </li>
-
   {% endif %}
 {% endfor %}
 </ul>
