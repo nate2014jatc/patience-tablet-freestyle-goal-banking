@@ -6,7 +6,7 @@ layout: default
 <h1>All Events:</h1>
 <h2>All current and previous events, sorted Oldest to Newest</h2>
 <ul>
-{% for post in site.posts reversed limit:8 %}
+{% for post in site.posts limit:8 %}
     <li>
       <a href="{{ post.url | relative_url}}">
         <h2>{{ post.title }}</h2>
