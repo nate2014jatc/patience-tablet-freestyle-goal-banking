@@ -16,5 +16,10 @@ layout: default
       </a>
     </li>
   {% endif %}
+  {% else %}
+    <li>
+      <h2>Nothing to show right now.</h2>
+    </li>
+  {% endelse %}
 {% endfor %}
 </ul>
