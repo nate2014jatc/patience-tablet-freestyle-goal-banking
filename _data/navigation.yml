@@ -7,3 +7,6 @@
 - name: Report a Problem
   link: mailto:rainbowpupsofutah@gmail.com?Subject=Admin%20Report
   img: assets/img/policy_alert_24dp.svg
+- name: Atom Feed
+  link: /feed.atom
+  img: assets/img/Application_atom+xml.svg
