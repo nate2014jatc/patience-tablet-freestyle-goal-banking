@@ -12,7 +12,7 @@ layout: default
     <li>
       <a href="{{ post.url | relative_url}}">
         <h2>{{ post.title }}</h2>
-        <p>{{ post.content | strip_html | truncatewords: 12 }}</p>
+        <p>{{ post.content | strip_html | truncatewords: 9 }}</p>
       </a>
     </li>
   {% endif %}
